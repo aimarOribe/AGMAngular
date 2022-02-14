@@ -1,0 +1,291 @@
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark colormenu-secundario navbar-web">
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse d-flex justify-content-around reducirNavbar barra-navegacion" id="navbarNavDropdown">
+
+            <div class="logo-nabvar">
+                <a class="navbar-brand" href="index.html"> <img src="assets/img/logo/logosecund.png" alt="logo" width="120px"></a>
+
+                <p class="texto-logo-navbar-2">Ingenieria y Servicios Generales</p>
+
+            </div>
+            
+
+            <ul class="navbar-nav">
+                <li class="nav-item  ">
+                    <a class="nav-link active" aria-current="page" [routerLink]="['/']"><i class="fas fa-home"></i> Inicio</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-briefcase"></i> Servicios
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item item-navbar" [routerLink]="['/servicioUno']">Asesorías & Proyectos de Ingeniería - Arquitectura</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item item-navbar" [routerLink]="['/servicioDos']">Servicios Generales en Infraestructura & Ingenieria</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item item-navbar" [routerLink]="['/servicioTres']">Alquileres de Equipos & Herramientas para la Construccion</a></li>
+                    </ul>
+                  </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" [routerLink]="['/nosotros']"> <i class="fas fa-users"></i> Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" [routerLink]="['/contactanos']"><i class="fas fa-mobile-alt"></i> Contáctanos</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Navbar fin -->
+
+<!-- navbar-movil -->
+
+<nav class="navbar navbar-light bg-light navbar-movil">
+    <div class="container-fluid">
+        <a class="navbar-brand logo-movil-padre" [routerLink]="['/']">
+            <img class="logo-movil" src="assets/img/logo/AGM.png" alt="logo-movil">
+            <p class="texto-logo-movil">Ingenieria y Servicios Generales</p>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title logo-movil-padre" id="offcanvasNavbarLabel">
+                    <img class="logo-movil" src="assets/img/logo/AGM.png" alt="logo-movil">
+                    <p class="texto-logo-movil">Ingenieria y Servicios Generales</p>
+                </h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a style="color: #013a6a;" class="nav-link active" aria-current="page" [routerLink]="['/']"><i class="fas fa-home"></i> Inicio</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a style="color: #013a6a;" class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-briefcase"></i> Servicios
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item item-navbar" [routerLink]="['/servicioUno']">Asesorías & Proyectos de Ingeniería - Arquitectura</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item item-navbar" [routerLink]="['/servicioDos']">Servicios Generales en Infraestructura & Ingenieria</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item item-navbar" [routerLink]="['/servicioTres']">Alquileres de Equipos & Herramientas para la Construcción</a></li>
+                        </ul>
+                      </li>
+
+                    <li class="nav-item">
+                        <a style="color: #013a6a;" class="nav-link active" [routerLink]="['/nosotros']"> <i class="fas fa-users"></i> Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color: #013a6a;" class="nav-link active" [routerLink]="['/contactanos']"><i class="fas fa-mobile-alt"></i> Contáctanos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- navbar-movil-fin -->
+
+
+<!-- serviciotres -->
+
+<h2 class="titulo-servicio">Servicio de Alquileres de Equipos & Herramientas para la Construccion</h2>
+
+<div class="container">
+
+    <div class="m-0 row justify-content-center mb-5">
+
+        <div class="col-auto imagenesServicioTres zoom">
+            <a href="https://api.whatsapp.com/send?phone=+51943359199&text=Hola, Nececito más información sobre el ALQUILER de Rotomartillo Demoledor que ofrece en su WebSite!" target="_blank">
+            <img src="assets/img/servicioTres/rotomartillo.jpeg" class="imagen-servicio-doble"></a>
+        </div>
+
+        <div class="col-auto imagenesServicioTres zoom">
+            <a href="https://api.whatsapp.com/send?phone=+51943359199&text=Hola, Nececito más información sobre el ALQUILER de Winche Eléctrico que ofrece en su WebSite!" target="_blank">
+            <img src="assets/img/servicioTres/winche.jpeg" class="imagen-servicio-doble"></a>
+        </div>
+
+        <div class="col-auto imagenesServicioTres zoom">
+            <a href="https://api.whatsapp.com/send?phone=+51943359199&text=Hola, Nececito más información sobre el ALQUILER de la Compresora que ofrece en su WebSite!" target="_blank">
+            <img src="assets/img/servicioTres/compresora.jpeg" class="imagen-servicio-doble"></a>
+        </div>
+
+        <div class="col-auto imagenesServicioTres zoom">
+            <a href="https://api.whatsapp.com/send?phone=+51943359199&text=Hola, Nececito más información sobre el ALQUILER de la Apisonadora que ofrece en su WebSite!" target="_blank">
+            <img src="assets/img/servicioTres/apisonadora.jpeg" class="imagen-servicio-doble"></a>
+        </div>
+
+        <div class="col-auto imagenesServicioTres zoom">
+            <a href="https://api.whatsapp.com/send?phone=+51943359199&text=Hola, Nececito más información sobre el ALQUILER de la Vibradora de Concreto que ofrece en su WebSite!" target="_blank">
+            <img src="assets/img/servicioTres/vibradora.jpeg" class="imagen-servicio-doble"></a>
+        </div>
+
+        <div class="col-auto imagenesServicioTres zoom">
+            <a href="https://api.whatsapp.com/send?phone=+51943359199&text=Hola, Nececito más información sobre el ALQUILER de la Maquina Compactadora que ofrece en su WebSite!" target="_blank">
+            <img src="assets/img/servicioTres/compactadora.jpeg" class="imagen-servicio-doble"></a>
+        </div>
+
+        <div class="col-auto imagenesServicioTres zoom">
+            <a href="https://api.whatsapp.com/send?phone=+51943359199&text=Hola, Nececito más información sobre el ALQUILER de la Mezcladora de Concreto que ofrece en su WebSite!" target="_blank">
+            <img src="assets/img/servicioTres/mescladora.jpeg" class="imagen-servicio-doble"></a>
+        </div>
+
+        <div class="col-auto imagenesServicioTres zoom">
+            <a href="https://api.whatsapp.com/send?phone=+51943359199&text=Hola, Nececito más información sobre el ALQUILER de Escaleras y Andamios Acrow Certificados que ofrece en su WebSite!" target="_blank">
+            <img src="assets/img/servicioTres/escaleras.jpeg" class="imagen-servicio-doble"></a>
+        </div>
+
+        <div class="col-auto imagenesServicioTres zoom">
+            <a href="https://api.whatsapp.com/send?phone=+51943359199&text=Hola, Nececito más información sobre el ALQUILER de Escaleras de Fibra y Tijera que ofrece en su WebSite!" target="_blank">
+            <img src="assets/img/servicioTres/escalerasfibra.jpeg" class="imagen-servicio-doble"></a>
+        </div>
+
+        <div class="col-auto imagenesServicioTres zoom">
+            <a href="https://api.whatsapp.com/send?phone=+51943359199&text=Hola, Nececito más información sobre el ALQUILER de Andamios Normados que ofrece en su WebSite!" target="_blank">
+            <img src="assets/img/servicioTres/andamios.jpeg" class="imagen-servicio-doble"></a>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- serviciotres -->
+
+<!-- BOton Flotante -->
+<div class="btncontainer">
+    <input type="checkbox" id="btn-mas">
+    <div class="redes">
+        <a href="https://www.facebook.com/Agm.Ing.y.Ser" class="fa fa-facebook" target="_blank"></a>
+        <a href="https://twitter.com/agmingenieriasg" class="fab fa-twitter" target="_blank"></a>
+        <a href="https://www.instagram.com/agmingenieria/?hl=es-la" class="fab fa-instagram" target="_blank"></a>
+        <a href="https://api.whatsapp.com/send?phone=+51943359199&text=Hola, Nececito más información de sus servicios que ofrece en su WebSite!" class="fab fa-whatsapp" target="_blank"></a>
+        <a href="mailto:gerencia.agmingenieria@gmail.com?subject=Quiero%20más%20información%20de%20sus%20servicios&body=Hola,%20te%20contacto%20desde%20tu%20WebSite%20y%20me%20interesa%20adquirir%20un%20servicio...!" class="fas fa-envelope"></a>
+        <a href="tel:+51943359199" class="fas fa-phone"></a>
+    </div>
+    <div class="btn-mas">
+        <label for="btn-mas" class="fa fa-plus"></label>
+    </div>
+</div>
+<!-- BOton Flotante FIn-->
+
+
+<!-- Footer -->
+
+<footer class="text-center text-lg-start bg-light text-muted">
+    <section class="banner">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block">
+                <span>Contáctate con nosotros a trávez de nuestras redes sociales:</span>
+            </div>
+            <!-- Left -->
+
+            <!-- Right -->
+            <div>
+                <a href="https://www.facebook.com/Agm.Ing.y.Ser" class="me-4 text-reset" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com/agmingenieriasg" class="me-4 text-reset" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/agmingenieria/?hl=es-la" class="me-4 text-reset" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=+51943359199&text=Hola, Nececito más información de sus servicios que ofrece en su WebSite!"
+                    class="me-4 text-reset" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i>AGM - INGENIERIA Y SERVICIOS GENERALES
+                        </h6>
+                        <p>
+                            Brindamos servicios relacionados a:
+                            <br />
+                            - Consultoria
+                            <br />
+                            - Ingeniería,
+                            <br />
+                            - Ejecución de proyectos de Obras Civiles
+                            <br />
+                            - Entre otros
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Servicios
+                        </h6>
+                        <p>
+                            <a [routerLink]="['/servicioUno']" class="text-reset pie-de-pagina">Asesorías & Proyectos de
+                                Ingeniería - Arquitectura</a>
+                        </p>
+                        <p>
+                            <a [routerLink]="['/servicioDos']" class="text-reset pie-de-pagina">Servicios Generales en
+                                Infraestructura & Ingenieria</a>
+                        </p>
+                        <p>
+                            <a [routerLink]="['/servicioTres']" class="text-reset pie-de-pagina">Servicio de Alquileres de
+                                Equipos & Herramientas para la Construccion</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Contacto
+                        </h6>
+                        <p><i class="fas fa-home me-3"></i> Urb. San Eloy Mz.F Lt.15, Trujillo, Peru, 13001</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            gerencia.agmingenieria@gmail.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> + 51 943 359 199</p>
+                        <p><i class="fas fa-phone me-3"></i> + 51 923 520 364</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            <script>
+                var f = new Date();
+                document.write("© " + f.getFullYear());
+            </script> Copyright:
+            <a class="text-reset fw-bold pie-de-pagina" href="https://www.facebook.com/Agm.Ing.y.Ser"
+                target="_blank">AGM - INGENIERIA Y SERVICIOS GENERALES</a>
+        </div>
+        <!-- Copyright -->
+    </section>
+</footer>
+<!-- footer final -->
