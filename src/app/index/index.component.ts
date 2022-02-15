@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-declare var carrusel:any;
-declare var intervalo:any;
+declare var carrusel: any;
+declare var intervalo: any;
 
 @Component({
   selector: 'app-index',
@@ -12,9 +12,7 @@ export class IndexComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-
     carrusel = document.querySelector(".carrusel-items");
-
     let maxScrollLeft = carrusel.scrollWidth - carrusel.clientWidth;
     intervalo = null;
     let step = 1;
@@ -32,16 +30,17 @@ export class IndexComponent implements OnInit {
     const stop = () => {
       clearInterval(intervalo);
     };
-
+    
     carrusel.addEventListener("mouseover", () => {
       stop();
     });
-
+    
     carrusel.addEventListener("mouseout", () => {
       start();
     });
-
+    
     start();
+
   }
 
 }
