@@ -9,6 +9,9 @@ export class NosotrosComponent implements OnInit {
 
   constructor() { }
 
+  fecha:any = new Date();
+  contect = this.fecha.getFullYear();
+
   ngOnInit(): void {
   }
 

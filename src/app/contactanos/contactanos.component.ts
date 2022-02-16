@@ -9,6 +9,9 @@ export class ContactanosComponent implements OnInit {
 
   constructor() { }
 
+  fecha:any = new Date();
+  contect = this.fecha.getFullYear();
+
   ngOnInit(): void {
   }
 
