@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-declare var carrusel: any;
-declare var intervalo: any;
 
 @Component({
   selector: 'app-index',
@@ -9,12 +7,16 @@ declare var intervalo: any;
 })
 export class IndexComponent implements OnInit {
 
-  constructor() { }
+  constructor() {}
+
+  fecha:any = new Date();
+  contect = this.fecha.getFullYear();
 
   ngOnInit(): void {
-    carrusel = document.querySelector(".carrusel-items");
+    
+    let carrusel:any = document.querySelector(".carrusel-items");
     let maxScrollLeft = carrusel.scrollWidth - carrusel.clientWidth;
-    intervalo = null;
+    let intervalo:any
     let step = 1;
     const start = () => {
       intervalo = setInterval(function () {
@@ -40,6 +42,7 @@ export class IndexComponent implements OnInit {
     });
     
     start();
+            
 
   }
 
