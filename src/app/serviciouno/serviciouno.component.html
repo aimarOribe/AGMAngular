@@ -4,7 +4,7 @@
         <div class="collapse navbar-collapse d-flex justify-content-around reducirNavbar barra-navegacion" id="navbarNavDropdown">
 
             <div class="logo-nabvar">
-                <a class="navbar-brand" href="index.html"> <img src="assets/img/logo/logosecund.png" alt="logo" width="120px"></a>
+                <a class="navbar-brand" [routerLink]="['/']"> <img src="assets/img/logo/logosecund.png" alt="logo" width="120px"></a>
 
                 <p class="texto-logo-navbar-2">Ingenieria y Servicios Generales</p>
 
@@ -26,6 +26,8 @@
                       <li><a class="dropdown-item item-navbar" [routerLink]="['/servicioDos']">Servicios Generales en Infraestructura & Ingenieria</a></li>
                       <li><hr class="dropdown-divider"></li>
                       <li><a class="dropdown-item item-navbar" [routerLink]="['/servicioTres']">Alquileres de Equipos & Herramientas para la Construccion</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item item-navbar" [routerLink]="['/servicioCuatro']">Arquitectura y Diseño de Interiores</a></li>
                     </ul>
                   </li>
 
@@ -46,7 +48,7 @@
 <nav class="navbar navbar-light bg-light navbar-movil">
     <div class="container-fluid">
         <a class="navbar-brand logo-movil-padre" [routerLink]="['/']">
-            <img class="logo-movil" src="assets/img/logo/AGM.png" alt="logo-movil">
+            <img class="logo-movil" src="../img/logo/AGM.png" alt="logo-movil">
             <p class="texto-logo-movil">Ingenieria y Servicios Generales</p>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
@@ -79,6 +81,8 @@
                           <li><a class="dropdown-item item-navbar" [routerLink]="['/servicioDos']">Servicios Generales en Infraestructura & Ingenieria</a></li>
                           <li><hr class="dropdown-divider"></li>
                           <li><a class="dropdown-item item-navbar" [routerLink]="['/servicioTres']">Alquileres de Equipos & Herramientas para la Construcción</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item item-navbar" [routerLink]="['/servicioCuatro']">Arquitectura y Diseño de Interiores</a></li>
                         </ul>
                       </li>
 
@@ -216,6 +220,9 @@
                         <p>
                             <a [routerLink]="['/servicioTres']" class="text-reset pie-de-pagina">Servicio de Alquileres de
                                 Equipos & Herramientas para la Construccion</a>
+                        </p>
+                        <p>
+                            <a [routerLink]="['/servicioCuatro']" class="text-reset pie-de-pagina">Arquitectura y Diseño de Interiores</a>
                         </p>
                     </div>
                     <!-- Grid column -->

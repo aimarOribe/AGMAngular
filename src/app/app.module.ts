@@ -9,6 +9,7 @@ import { ServiciodosComponent } from './serviciodos/serviciodos.component';
 import { ServiciotresComponent } from './serviciotres/serviciotres.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import { ContactanosComponent } from './contactanos/contactanos.component';
+import { ServiciocuatroComponent } from './serviciocuatro/serviciocuatro.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ContactanosComponent } from './contactanos/contactanos.component';
     ServiciodosComponent,
     ServiciotresComponent,
     NosotrosComponent,
-    ContactanosComponent
+    ContactanosComponent,
+    ServiciocuatroComponent
   ],
   imports: [
     BrowserModule,

@@ -4,6 +4,7 @@ import { IndexComponent } from './index/index.component';
 import { ServiciounoComponent } from './serviciouno/serviciouno.component';
 import { ServiciodosComponent } from './serviciodos/serviciodos.component';
 import { ServiciotresComponent } from './serviciotres/serviciotres.component';
+import { ServiciocuatroComponent } from './serviciocuatro/serviciocuatro.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import { ContactanosComponent } from './contactanos/contactanos.component';
 const routes: Routes = [
@@ -11,6 +12,7 @@ const routes: Routes = [
   {path: 'servicioUno', component: ServiciounoComponent},
   {path: 'servicioDos', component: ServiciodosComponent},
   {path: 'servicioTres', component: ServiciotresComponent},
+  {path: 'servicioCuatro', component: ServiciocuatroComponent},
   {path: 'nosotros', component: NosotrosComponent},
   {path: 'contactanos', component: ContactanosComponent},
   {path: '**', pathMatch: 'full', redirectTo: ''}
