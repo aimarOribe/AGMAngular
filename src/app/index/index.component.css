@@ -200,9 +200,15 @@ html {
   
   @media(min-width:150px) and (max-width:399px) {
       .tamaño-carrusel{
-          height: 150px;
+          height: 200px;
       }
   }
+
+  @media(min-width:1px) and (max-width:149px) {
+    .tamaño-carrusel{
+        height: 200px;
+    }
+}
   
   /* CARRUSEL FIN */
   
