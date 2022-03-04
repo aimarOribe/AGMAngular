@@ -215,8 +215,6 @@ h5 {
 
 /* CARRUSEL FIN */
 
-
-
 /* BANNER */
 
 .banner {
@@ -513,88 +511,6 @@ h5 {
   transform: scale(1.2);
 }
 
-/* SERVICIO 1 */
-
-.navbar-movil-secundario {
-  background-color: #174e81;
-}
-
-
-.imagen-servicio {
-  border-radius: 10px;
-  width: 700px;
-  height: 350px;
-}
-
-.imagen-servicio-doble {
-  border-radius: 10px;
-  width: 500px;
-  height: 350px;
-}
-
-.titulo-servicio {
-  margin-top: 60px;
-  margin-bottom: 60px;
-}
-
-.cuerpo-servicio {
-  margin-bottom: 60px;
-}
-
-.servicioOne {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 60px;
-}
-
-.imagenDosServicioUno {
-  margin-top: 40px;
-}
-
-@media(min-width:720px) and (max-width:920px) {
-  .imagen-servicio {
-    width: 500px;
-    height: 250px;
-  }
-}
-
-@media(min-width:420px) and (max-width:719px) {
-  .imagen-servicio {
-    width: 400px;
-    height: 200px;
-  }
-
-  .imagen-servicio-doble {
-    width: 400px;
-    height: 250px;
-  }
-}
-
-@media(min-width:480px) and (max-width:719px) {
-  .imagen-servicio {
-    width: 400px;
-    height: 200px;
-  }
-
-  .imagen-servicio-doble {
-    width: 400px;
-    height: 250px;
-  }
-}
-
-@media(min-width:300px) and (max-width:479px) {
-  .imagen-servicio {
-    width: 280px;
-    height: 140px;
-  }
-
-  .imagen-servicio-doble {
-    width: 280px;
-    height: 200px;
-  }
-}
-
 /* BOTON FLOTANTE */
 
 #btn-mas {
@@ -649,38 +565,6 @@ h5 {
   transform: rotate(135deg);
   font-size: 25px;
 }
-
-
-
-/* SERVICIO 2 */
-
-.imagen-servicio-dos {
-  border-radius: 10px;
-
-}
-
-.servicioTwo {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin-bottom: 60px;
-}
-
-.imagenesServicioDos {
-  margin-top: 40px;
-}
-
-/* SERVICIO 3 */
-
-.imagen-servicio-tres {
-  border-radius: 10px;
-
-}
-
-.imagenesServicioTres {
-  margin-top: 40px;
-}
-
 
 /* PIE DE PAGINA */
 
