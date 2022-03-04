@@ -10,6 +10,8 @@ import { ServiciotresComponent } from './serviciotres/serviciotres.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import { ContactanosComponent } from './contactanos/contactanos.component';
 import { ServiciocuatroComponent } from './serviciocuatro/serviciocuatro.component';
+import { CarserviciosComponent } from './index/carservicios/carservicios.component';
+import { CardsComponent } from './index/cards/cards.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { ServiciocuatroComponent } from './serviciocuatro/serviciocuatro.compone
     ServiciotresComponent,
     NosotrosComponent,
     ContactanosComponent,
-    ServiciocuatroComponent
+    ServiciocuatroComponent,
+    CarserviciosComponent,
+    CardsComponent
   ],
   imports: [
     BrowserModule,

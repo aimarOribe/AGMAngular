@@ -1,0 +1,139 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* custom scroll bar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #174e81;
+}
+
+
+body {
+  background-color: #f4f5f7;
+}
+
+h2 {
+  margin: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #666666;
+}
+
+h3 {
+  font-size: 1.9rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+
+/* CARRUSEL */
+
+@media(min-width:100px) and (max-width:415px) {
+  .principal-main {
+    margin-top: 78px;
+  }
+}
+
+.titulo-servicios {
+  background-color: rgba(250, 12, 12, 0.822);
+  font-weight: 700;
+  border-radius: 10px;
+  border: 3px solid #fff;
+}
+
+.botonprincipal {
+  color: #fff;
+  margin: 10px;
+  background-color: #ff0000;
+  border-color: #ff0000;
+  font-size: 17px;
+  font-weight: bold;
+  width: 15%;
+  text-transform: uppercase;
+}
+
+.botonprincipal:hover {
+  background-color: #fff;
+  color: #ff0000;
+  border: 3px solid #ff0000;
+  transition: all .3s ease;
+
+}
+
+.tamaño-carrusel {
+  height: 525px;
+}
+
+@media(min-width:1401px) and (max-width:2500px) {
+  .tamaño-carrusel {
+    height: 800px;
+  }
+}
+
+@media(min-width:1200px) and (max-width:1400px) {
+  .tamaño-carrusel {
+    height: 530px;
+  }
+}
+
+@media(min-width:1001px) and (max-width:1199px) {
+  .tamaño-carrusel {
+    height: 500px;
+  }
+}
+
+@media(min-width:680px) and (max-width:1000px) {
+  .tamaño-carrusel {
+    height: 450px;
+  }
+
+  .texto-carrusel {
+    font-size: 25px;
+  }
+}
+
+@media(min-width:541px) and (max-width:679px) {
+  .tamaño-carrusel {
+    height: 350px;
+  }
+}
+
+@media(min-width:400px) and (max-width:540px) {
+  .tamaño-carrusel {
+    height: 250px;
+  }
+}
+
+@media(min-width:150px) and (max-width:399px) {
+  .tamaño-carrusel {
+    height: 200px;
+  }
+}
+
+@media(min-width:1px) and (max-width:149px) {
+  .tamaño-carrusel {
+    height: 200px;
+  }
+}
+
+/* CARRUSEL FIN */
