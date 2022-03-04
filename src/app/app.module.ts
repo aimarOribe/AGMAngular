@@ -12,6 +12,7 @@ import { ContactanosComponent } from './contactanos/contactanos.component';
 import { ServiciocuatroComponent } from './serviciocuatro/serviciocuatro.component';
 import { CarserviciosComponent } from './index/carservicios/carservicios.component';
 import { CardsComponent } from './index/cards/cards.component';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,9 @@ import { CardsComponent } from './index/cards/cards.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    { provide: LocationStrategy, useClass: HashLocationStrategy }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
