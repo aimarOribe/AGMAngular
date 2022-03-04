@@ -4,7 +4,7 @@
         <div class="collapse navbar-collapse d-flex justify-content-around reducirNavbar barra-navegacion" id="navbarNavDropdown">
 
             <div class="logo-nabvar">
-                <a class="navbar-brand" [routerLink]="['/']"> <img src="assets/img/logo/logosecund.png" alt="logo" width="120px"></a>
+                <a class="navbar-brand" [routerLink]="['']"> <img src="assets/img/logo/logosecund.png" alt="logo" width="120px"></a>
 
                 <p class="texto-logo-navbar-2">Ingenieria y Servicios Generales</p>
 
@@ -13,7 +13,7 @@
 
             <ul class="navbar-nav">
                 <li class="nav-item  ">
-                    <a class="nav-link active" aria-current="page" [routerLink]="['/']"><i class="fas fa-home"></i> Inicio</a>
+                    <a class="nav-link active" aria-current="page" [routerLink]="['']"><i class="fas fa-home"></i> Inicio</a>
                 </li>
 
                 <li class="nav-item dropdown">
@@ -21,21 +21,21 @@
                         <i class="fas fa-briefcase"></i> Servicios
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item item-navbar" [routerLink]="['/servicioUno']">Asesorías & Proyectos de Ingeniería - Arquitectura</a></li>
+                      <li><a class="dropdown-item item-navbar" [routerLink]="['servicioUno']">Asesorías & Proyectos de Ingeniería - Arquitectura</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item item-navbar" [routerLink]="['/servicioDos']">Servicios Generales en Infraestructura & Ingenieria</a></li>
+                      <li><a class="dropdown-item item-navbar" [routerLink]="['servicioDos']">Servicios Generales en Infraestructura & Ingenieria</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item item-navbar" [routerLink]="['/servicioTres']">Alquileres de Equipos & Herramientas para la Construccion</a></li>
+                      <li><a class="dropdown-item item-navbar" [routerLink]="['servicioTres']">Alquileres de Equipos & Herramientas para la Construccion</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item item-navbar" [routerLink]="['/servicioCuatro']">Arquitectura y Diseño de Interiores</a></li>
+                      <li><a class="dropdown-item item-navbar" [routerLink]="['servicioCuatro']">Arquitectura y Diseño de Interiores</a></li>
                     </ul>
                   </li>
 
                 <li class="nav-item">
-                    <a class="nav-link active" [routerLink]="['/nosotros']"> <i class="fas fa-users"></i> Nosotros</a>
+                    <a class="nav-link active" [routerLink]="['nosotros']"> <i class="fas fa-users"></i> Nosotros</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" [routerLink]="['/contactanos']"><i class="fas fa-mobile-alt"></i> Contáctanos</a>
+                    <a class="nav-link active" [routerLink]="['contactanos']"><i class="fas fa-mobile-alt"></i> Contáctanos</a>
                 </li>
             </ul>
         </div>
@@ -47,7 +47,7 @@
 
 <nav class="navbar navbar-light bg-light navbar-movil">
     <div class="container-fluid">
-        <a class="navbar-brand logo-movil-padre" [routerLink]="['/']">
+        <a class="navbar-brand logo-movil-padre" [routerLink]="['']">
             <img class="logo-movil" src="../../assets/img/logo/AGM.png" alt="logo-movil">
             <p class="texto-logo-movil">Ingenieria y Servicios Generales</p>
         </a>
@@ -76,21 +76,21 @@
                             <i class="fas fa-briefcase"></i> Servicios
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item item-navbar" [routerLink]="['/servicioUno']">Asesorías & Proyectos de Ingeniería - Arquitectura</a></li>
+                          <li><a class="dropdown-item item-navbar" [routerLink]="['servicioUno']">Asesorías & Proyectos de Ingeniería - Arquitectura</a></li>
                           <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item item-navbar" [routerLink]="['/servicioDos']">Servicios Generales en Infraestructura & Ingenieria</a></li>
+                          <li><a class="dropdown-item item-navbar" [routerLink]="['servicioDos']">Servicios Generales en Infraestructura & Ingenieria</a></li>
                           <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item item-navbar" [routerLink]="['/servicioTres']">Alquileres de Equipos & Herramientas para la Construcción</a></li>
+                          <li><a class="dropdown-item item-navbar" [routerLink]="['servicioTres']">Alquileres de Equipos & Herramientas para la Construcción</a></li>
                           <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item item-navbar" [routerLink]="['/servicioCuatro']">Arquitectura y Diseño de Interiores</a></li>
+                          <li><a class="dropdown-item item-navbar" [routerLink]="['servicioCuatro']">Arquitectura y Diseño de Interiores</a></li>
                         </ul>
                       </li>
 
                     <li class="nav-item">
-                        <a style="color: #013a6a;" class="nav-link active" [routerLink]="['/nosotros']"> <i class="fas fa-users"></i> Nosotros</a>
+                        <a style="color: #013a6a;" class="nav-link active" [routerLink]="['nosotros']"> <i class="fas fa-users"></i> Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a style="color: #013a6a;" class="nav-link active" [routerLink]="['/contactanos']"><i class="fas fa-mobile-alt"></i> Contáctanos</a>
+                        <a style="color: #013a6a;" class="nav-link active" [routerLink]="['contactanos']"><i class="fas fa-mobile-alt"></i> Contáctanos</a>
                     </li>
                 </ul>
             </div>
@@ -246,19 +246,19 @@
                             Servicios
                         </h6>
                         <p>
-                            <a [routerLink]="['/servicioUno']" class="text-reset pie-de-pagina">Asesorías & Proyectos de
+                            <a [routerLink]="['servicioUno']" class="text-reset pie-de-pagina">Asesorías & Proyectos de
                                 Ingeniería - Arquitectura</a>
                         </p>
                         <p>
-                            <a [routerLink]="['/servicioDos']" class="text-reset pie-de-pagina">Servicios Generales en
+                            <a [routerLink]="['servicioDos']" class="text-reset pie-de-pagina">Servicios Generales en
                                 Infraestructura & Ingenieria</a>
                         </p>
                         <p>
-                            <a [routerLink]="['/servicioTres']" class="text-reset pie-de-pagina">Servicio de Alquileres de
+                            <a [routerLink]="['servicioTres']" class="text-reset pie-de-pagina">Servicio de Alquileres de
                                 Equipos & Herramientas para la Construccion</a>
                         </p>
                         <p>
-                            <a [routerLink]="['/servicioCuatro']" class="text-reset pie-de-pagina">Arquitectura y Diseño de Interiores</a>
+                            <a [routerLink]="['servicioCuatro']" class="text-reset pie-de-pagina">Arquitectura y Diseño de Interiores</a>
                         </p>
                     </div>
                     <!-- Grid column -->
